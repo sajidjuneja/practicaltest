@@ -15,7 +15,7 @@ public class UsersViewModel extends ViewModel {
     private UsersRepository usersRepository;
 
     public UsersViewModel(@NonNull Application application) {
-        super(application);
+        super();
         usersRepository = new UsersRepository();
     }
 
